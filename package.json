@@ -17,7 +17,7 @@
     "url": "https://github.com/RajManish8340/webCrawlerhttp/issues"
   },
   "homepage": "https://github.com/RajManish8340/webCrawlerhttp#readme",
-  "devDependencies": {
+  "dependencies": {
     "jest": "^30.0.5"
   }
 }
