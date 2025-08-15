@@ -1,0 +1,23 @@
+{
+  "name": "webcrawler-nodejs-http",
+  "version": "1.0.0",
+  "description": "terminal based , which pages related to which pages in the site",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajManish8340/webCrawlerhttp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajManish8340/webCrawlerhttp/issues"
+  },
+  "homepage": "https://github.com/RajManish8340/webCrawlerhttp#readme",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
