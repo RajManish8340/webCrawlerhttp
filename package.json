@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/RajManish8340/webCrawlerhttp#readme",
   "dependencies": {
+    "jsdom": "^26.1.0"
+  },
+  "devDependencies": {
     "jest": "^30.0.5"
   }
 }
