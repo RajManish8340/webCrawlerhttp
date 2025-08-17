@@ -1,4 +1,5 @@
 const {crawlPage} = require('./crawl.js')
+const {printReport} = require('./report.js')
 
 async function main() {
     if (process.argv.length < 3) {
@@ -12,15 +13,10 @@ async function main() {
     const baseURL = process.argv[2]
     
     console.log(`starting crawl of ${baseURL}`)
+    // crawl pages return pages which is a promise not a object thats why await
     const pages = await crawlPage(baseURL , baseURL , {})
-     // crawl pages return pages which is a promise not a object thats why await
 
-    // Object.entries(pages) this is because crawl pages return pages which is a promise not a object
-    // and we cant iterate over a promise 
-    // const page of pages is not valid 
-    for (const page of Object.entries(pages) ) {
-        console.log(page)
-    }
+    printReport(pages)
 }
 
 main()
