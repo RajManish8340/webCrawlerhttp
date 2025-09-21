@@ -5,6 +5,6 @@ How to test it
 1) clone this repo
 2) 
  ``` bash 
- webCrawler-nodejs-http
+  cd webCrawler-nodejs-http
  ```
  3) npm start <your url with specific http protocol (eg :- https://youtube.com or http://youtube.com ) >
